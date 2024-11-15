@@ -23280,19 +23280,19 @@ MonoBehaviour:
   trafficCars:
   - trafficCar: {fileID: 8635660219811865841, guid: 462a123679ebcf1428c0be6755fbf62f,
       type: 3}
-    frequence: 0
+    frequence: 5
   - trafficCar: {fileID: 4626910846608256445, guid: 771e3c15de610cd48a63ebc2b0238924,
       type: 3}
-    frequence: 0
-  - trafficCar: {fileID: 2133875954012314946, guid: cfe8866a4aa58674bbcd207929e78a90,
+    frequence: 5
+  - trafficCar: {fileID: 5883388147342328634, guid: 1f5d44b1db0c83d448a55694b8dfe06b,
       type: 3}
-    frequence: 0
+    frequence: 5
   - trafficCar: {fileID: 4378838521344496893, guid: cf50714939343d348b06ba6e92db9442,
       type: 3}
-    frequence: 0
+    frequence: 5
   - trafficCar: {fileID: 5993184589389791793, guid: 108a055b4cdcfe94bb065120901c6aa3,
       type: 3}
-    frequence: 0
+    frequence: 5
   lines:
   - {fileID: 2010998299}
   - {fileID: 942704771}
