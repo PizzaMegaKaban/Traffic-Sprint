@@ -9,6 +9,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using TMPro;
 
 [RequireComponent(typeof(Button))]
 [AddComponentMenu("BoneCracker Games/Highway Racer/UI/HR UI Button Sound")]

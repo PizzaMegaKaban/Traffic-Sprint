@@ -8,6 +8,7 @@
 
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 /// <summary>
 /// All selectable player cars as scriptable object.

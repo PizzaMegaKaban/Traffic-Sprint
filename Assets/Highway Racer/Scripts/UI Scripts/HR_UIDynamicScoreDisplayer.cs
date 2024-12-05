@@ -10,6 +10,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 [AddComponentMenu("BoneCracker Games/Highway Racer/UI/HR UI Dynamic Score Displayer")]
 public class HR_UIDynamicScoreDisplayer : MonoBehaviour {

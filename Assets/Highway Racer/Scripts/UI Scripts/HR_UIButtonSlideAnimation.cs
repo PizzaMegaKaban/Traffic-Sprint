@@ -9,6 +9,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using TMPro;
 
 /// <summary>
 /// Slides the UI when enabled.

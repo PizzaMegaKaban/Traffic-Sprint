@@ -8,6 +8,7 @@
 
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 /// <summary>
 /// Get the maximum bounds extent of object, including all child renderers,but excluding particles and trails, for FOV zooming effect.

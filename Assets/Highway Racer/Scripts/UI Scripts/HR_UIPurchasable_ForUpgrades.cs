@@ -1,7 +1,7 @@
 //----------------------------------------------
 //           	   Highway Racer
 //
-// Copyright © 2014 - 2023 BoneCracker Games
+// Copyright ï¿½ 2014 - 2023 BoneCracker Games
 // http://www.bonecrackergames.com
 //
 //----------------------------------------------
@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using TMPro;
 
 [AddComponentMenu("BoneCracker Games/Highway Racer/UI/HR UI Purchasable For Upgrades")]
 [RequireComponent(typeof(RCCP_UI_Upgrade))]

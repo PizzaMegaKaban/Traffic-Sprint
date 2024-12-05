@@ -1,7 +1,7 @@
 //----------------------------------------------
 //           	   Highway Racer
 //
-// Copyright © 2014 - 2023 BoneCracker Games
+// Copyright ï¿½ 2014 - 2023 BoneCracker Games
 // http://www.bonecrackergames.com
 //
 //----------------------------------------------
@@ -10,6 +10,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
+using TMPro;
 
 [RequireComponent(typeof(LensFlareComponentSRP))]
 public class HR_LensFlare : MonoBehaviour {

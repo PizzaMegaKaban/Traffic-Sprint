@@ -9,6 +9,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 #if PHOTON_UNITY_NETWORKING
 using Photon;
 using Photon.Pun;
