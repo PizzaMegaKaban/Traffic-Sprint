@@ -10,6 +10,7 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
+using TMPro;
 
 /// <summary>
 /// Camera settings applier.

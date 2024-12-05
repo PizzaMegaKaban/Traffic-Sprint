@@ -49,21 +49,23 @@ public class HR_UIGameplayPanel : MonoBehaviour {
 
     private void Awake() {
 
-        if (combo) {
+        //if (combo) {
 
-            comboMImage = combo.GetComponentInParent<Image>();
-            comboDefPos = comboMImage.rectTransform.anchoredPosition;
+        //    comboMImage = combo.GetComponentInParent<Image>();
+        //    comboDefPos = comboMImage.rectTransform.anchoredPosition;
 
-        }
+        //}
 
-        if (highSpeed) {
+        //if (highSpeed)
+        //{
 
-            highSpeedImage = highSpeed.GetComponentInParent<Image>();
-            highSpeedDefPos = highSpeedImage.rectTransform.anchoredPosition;
+        //    highSpeedImage = highSpeed.GetComponentInParent<Image>();
+        //    highSpeedDefPos = highSpeedImage.rectTransform.anchoredPosition;
 
-        }
+        //}
 
-        if (oppositeDirection) {
+        if (oppositeDirection)
+        {
 
             oppositeDirectionImage = oppositeDirection.GetComponentInParent<Image>();
             oppositeDirectionDefPos = oppositeDirectionImage.rectTransform.anchoredPosition;
@@ -130,23 +132,23 @@ public class HR_UIGameplayPanel : MonoBehaviour {
         if (!player)
             return;
 
-        if (combo) {
+        //if (combo) {
 
-            if (player.combo > 1)
-                comboMImage.rectTransform.anchoredPosition = Vector2.Lerp(comboMImage.rectTransform.anchoredPosition, comboDefPos, Time.deltaTime * 5f);
-            else
-                comboMImage.rectTransform.anchoredPosition = Vector2.Lerp(comboMImage.rectTransform.anchoredPosition, new Vector2(comboDefPos.x - 500, comboDefPos.y), Time.deltaTime * 5f);
+        //    if (player.combo > 1)
+        //        comboMImage.rectTransform.anchoredPosition = Vector2.Lerp(comboMImage.rectTransform.anchoredPosition, comboDefPos, Time.deltaTime * 5f);
+        //    else
+        //        comboMImage.rectTransform.anchoredPosition = Vector2.Lerp(comboMImage.rectTransform.anchoredPosition, new Vector2(comboDefPos.x - 500, comboDefPos.y), Time.deltaTime * 5f);
 
-        }
+        //}
 
-        if (highSpeed) {
+        //if (highSpeed) {
 
-            if (player.highSpeedCurrent > .1f)
-                highSpeedImage.rectTransform.anchoredPosition = Vector2.Lerp(highSpeedImage.rectTransform.anchoredPosition, highSpeedDefPos, Time.deltaTime * 5f);
-            else
-                highSpeedImage.rectTransform.anchoredPosition = Vector2.Lerp(highSpeedImage.rectTransform.anchoredPosition, new Vector2(highSpeedDefPos.x + 500, highSpeedDefPos.y), Time.deltaTime * 5f);
+        //    if (player.highSpeedCurrent > .1f)
+        //        highSpeedImage.rectTransform.anchoredPosition = Vector2.Lerp(highSpeedImage.rectTransform.anchoredPosition, highSpeedDefPos, Time.deltaTime * 5f);
+        //    else
+        //        highSpeedImage.rectTransform.anchoredPosition = Vector2.Lerp(highSpeedImage.rectTransform.anchoredPosition, new Vector2(highSpeedDefPos.x + 500, highSpeedDefPos.y), Time.deltaTime * 5f);
 
-        }
+        //}
 
         if (oppositeDirection) {
 

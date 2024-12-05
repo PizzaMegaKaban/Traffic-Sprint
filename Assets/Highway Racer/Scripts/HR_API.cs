@@ -9,6 +9,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 /// <summary>
 /// Get, add, consume currency. Get unlocked vehicles, and unlocked parts string list.
