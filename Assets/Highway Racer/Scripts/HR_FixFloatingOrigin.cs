@@ -1,7 +1,7 @@
 //----------------------------------------------
 //           	   Highway Racer
 //
-// Copyright © 2014 - 2023 BoneCracker Games
+// Copyright ï¿½ 2014 - 2023 BoneCracker Games
 // http://www.bonecrackergames.com
 //
 //----------------------------------------------
@@ -9,6 +9,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 /// <summary>
 /// Fixes the floating origin when player gets too far away from the origin. Repositions all important and necessary gameobjects to the 0 point.

@@ -8,6 +8,7 @@
 
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 /// <summary>
 /// Limits the linear right and left velocity of the player vehicle when hits the trigger (barrier).

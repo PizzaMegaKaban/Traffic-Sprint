@@ -8,6 +8,7 @@
 
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 [AddComponentMenu("BoneCracker Games/Highway Racer/UI/HR UI Gameplay Options Handler")]
 public class HR_UIOptionsHandler : MonoBehaviour {

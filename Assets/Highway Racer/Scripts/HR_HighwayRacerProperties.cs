@@ -8,6 +8,7 @@
 
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 /// <summary>
 /// General Highway Racer settings.

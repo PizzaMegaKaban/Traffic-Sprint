@@ -8,6 +8,7 @@
 
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 /// <summary>
 /// Checks max bounds of the transform.

@@ -9,6 +9,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.EventSystems;
+using TMPro;
 
 /// <summary>
 /// Mobile UI Drag used for orbiting Showroom Camera.

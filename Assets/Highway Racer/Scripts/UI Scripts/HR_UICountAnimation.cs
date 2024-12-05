@@ -9,6 +9,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using TMPro;
 
 [AddComponentMenu("BoneCracker Games/Highway Racer/UI/HR UI Count Animation")]
 public class HR_UICountAnimation : MonoBehaviour {

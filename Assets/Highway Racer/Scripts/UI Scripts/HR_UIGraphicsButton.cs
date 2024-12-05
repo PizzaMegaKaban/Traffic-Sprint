@@ -9,6 +9,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using TMPro;
 
 [AddComponentMenu("BoneCracker Games/Highway Racer/UI/HR UI Graphics Button")]
 public class HR_UIGraphicsButton : MonoBehaviour {

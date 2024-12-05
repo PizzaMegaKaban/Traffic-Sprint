@@ -1,7 +1,7 @@
 //----------------------------------------------
 //           	   Highway Racer
 //
-// Copyright © 2014 - 2021 BoneCracker Games
+// Copyright ï¿½ 2014 - 2021 BoneCracker Games
 // http://www.bonecrackergames.com
 //
 //----------------------------------------------
@@ -9,6 +9,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class HR_CarCameraShake : MonoBehaviour {
 

@@ -1,7 +1,7 @@
 //----------------------------------------------
 //           	   Highway Racer
 //
-// Copyright © 2014 - 2023 BoneCracker Games
+// Copyright ï¿½ 2014 - 2023 BoneCracker Games
 // http://www.bonecrackergames.com
 //
 //----------------------------------------------
@@ -10,6 +10,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 [AddComponentMenu("BoneCracker Games/Highway Racer/UI/HR UI Credits Text")]
 public class HR_UI_CreditsText : MonoBehaviour {
