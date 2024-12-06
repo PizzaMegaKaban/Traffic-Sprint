@@ -9,6 +9,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using TMPro;
 
 /// <summary>
 /// UI Info Displayer. Used for informing the player when rewarded, out of money, and about infos.

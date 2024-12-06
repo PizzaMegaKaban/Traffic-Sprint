@@ -5,6 +5,7 @@
 // http://www.bonecrackergames.com
 //
 //----------------------------------------------
+using TMPro;
 
 public class HR_Version {
 

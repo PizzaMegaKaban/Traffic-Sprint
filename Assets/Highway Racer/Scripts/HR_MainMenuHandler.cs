@@ -6,6 +6,7 @@
 //
 //----------------------------------------------
 
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
@@ -49,15 +50,15 @@ public class HR_MainMenuHandler : MonoBehaviour {
 
     [Header("UI Loading Section")]
     public GameObject loadingScreen;
-    public Slider loadingBar;
+    // public Slider loadingBar;
     private AsyncOperation async;
 
     [Header("Buttons")]
     public GameObject buyCarButton;
     public GameObject selectCarButton;
 
-    [Header("Texts")]
-    public Text currency;
+    [Header("Text")]
+    public TextMeshProUGUI currency;
 
     [Header("Best Score Texts")]
     public Text vehicleNameText;        //	Current vehicle name text.
@@ -134,8 +135,8 @@ public class HR_MainMenuHandler : MonoBehaviour {
         currency.text = HR_API.GetCurrency().ToString("F0");
 
         //	If loading, set value of the loading slider.
-        if (async != null && !async.isDone)
-            loadingBar.value = async.progress;
+        //if (async != null && !async.isDone)
+        //    loadingBar.value = async.progress;
 
     }
 
@@ -337,7 +338,6 @@ public class HR_MainMenuHandler : MonoBehaviour {
         SelectCar();
         EnableMenu(loadingScreen);
         async = SceneManager.LoadSceneAsync(PlayerPrefs.GetString("SelectedScene", ""));
-
     }
 
     /// <summary>

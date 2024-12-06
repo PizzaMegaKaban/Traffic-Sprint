@@ -1206,6 +1206,7 @@ Transform:
   - {fileID: 5350200392570565193}
   - {fileID: 4327962994931508153}
   - {fileID: 6312631237008129129}
+  - {fileID: 8843159629604861567}
   - {fileID: 3950534211953464925}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10663,6 +10664,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HR_GameplayCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 22357952, guid: 3c49455ff7757444fa4b466c3250f423, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 22413458, guid: 3c49455ff7757444fa4b466c3250f423, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -19506,6 +19511,7 @@ Transform:
   - {fileID: 4095725904463767666}
   - {fileID: 4530922700305926747}
   - {fileID: 3101676169055304554}
+  - {fileID: 6741658306998672419}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2107671990
@@ -24157,27 +24163,32 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2098669424}
     m_Modifications:
     - target: {fileID: 3736164781392191307, guid: 17c6360202e77934cb8a2ef574c9e0dd,
         type: 3}
       propertyPath: m_Name
       value: Porshe 911 GV
       objectReference: {fileID: 0}
-    - target: {fileID: 9073347874261615810, guid: 17c6360202e77934cb8a2ef574c9e0dd,
+    - target: {fileID: 3736164781392191307, guid: 17c6360202e77934cb8a2ef574c9e0dd,
         type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.0820746
-      objectReference: {fileID: 0}
-    - target: {fileID: 9073347874261615810, guid: 17c6360202e77934cb8a2ef574c9e0dd,
-        type: 3}
-      propertyPath: m_LocalPosition.y
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9073347874261615810, guid: 17c6360202e77934cb8a2ef574c9e0dd,
         type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.7648102
+      objectReference: {fileID: 0}
+    - target: {fileID: 9073347874261615810, guid: 17c6360202e77934cb8a2ef574c9e0dd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.69568706
+      objectReference: {fileID: 0}
+    - target: {fileID: 9073347874261615810, guid: 17c6360202e77934cb8a2ef574c9e0dd,
+        type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7
+      value: -0.23897266
       objectReference: {fileID: 0}
     - target: {fileID: 9073347874261615810, guid: 17c6360202e77934cb8a2ef574c9e0dd,
         type: 3}
@@ -24187,17 +24198,17 @@ PrefabInstance:
     - target: {fileID: 9073347874261615810, guid: 17c6360202e77934cb8a2ef574c9e0dd,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9073347874261615810, guid: 17c6360202e77934cb8a2ef574c9e0dd,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9073347874261615810, guid: 17c6360202e77934cb8a2ef574c9e0dd,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9073347874261615810, guid: 17c6360202e77934cb8a2ef574c9e0dd,
         type: 3}
@@ -24219,6 +24230,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17c6360202e77934cb8a2ef574c9e0dd, type: 3}
+--- !u!4 &6741658306998672419 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9073347874261615810, guid: 17c6360202e77934cb8a2ef574c9e0dd,
+    type: 3}
+  m_PrefabInstance: {fileID: 6741658306998672418}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7020266750201188203
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25790,12 +25807,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 125853778}
     m_Modifications:
     - target: {fileID: 1134076971106766739, guid: 074f41f0dff1c3442bd7ae5d0c097ec0,
         type: 3}
       propertyPath: m_Name
       value: Porshe 911 RV
+      objectReference: {fileID: 0}
+    - target: {fileID: 1134076971106766739, guid: 074f41f0dff1c3442bd7ae5d0c097ec0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1295227485205121294, guid: 074f41f0dff1c3442bd7ae5d0c097ec0,
         type: 3}
@@ -25805,7 +25827,7 @@ PrefabInstance:
     - target: {fileID: 1295227485205121294, guid: 074f41f0dff1c3442bd7ae5d0c097ec0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00000011920929
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1295227485205121294, guid: 074f41f0dff1c3442bd7ae5d0c097ec0,
         type: 3}
@@ -25820,17 +25842,17 @@ PrefabInstance:
     - target: {fileID: 1295227485205121294, guid: 074f41f0dff1c3442bd7ae5d0c097ec0,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1295227485205121294, guid: 074f41f0dff1c3442bd7ae5d0c097ec0,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1295227485205121294, guid: 074f41f0dff1c3442bd7ae5d0c097ec0,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1295227485205121294, guid: 074f41f0dff1c3442bd7ae5d0c097ec0,
         type: 3}
@@ -25852,6 +25874,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 074f41f0dff1c3442bd7ae5d0c097ec0, type: 3}
+--- !u!4 &8843159629604861567 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1295227485205121294, guid: 074f41f0dff1c3442bd7ae5d0c097ec0,
+    type: 3}
+  m_PrefabInstance: {fileID: 8843159629604861566}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8898770429605424645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26354,5 +26382,3 @@ SceneRoots:
   - {fileID: 222133412}
   - {fileID: 1078429032}
   - {fileID: 2098669424}
-  - {fileID: 6741658306998672418}
-  - {fileID: 8843159629604861566}
