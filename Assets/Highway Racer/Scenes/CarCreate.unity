@@ -1195,7 +1195,6 @@ Transform:
   - {fileID: 3200213175768640205}
   - {fileID: 4601933926230222749}
   - {fileID: 7545511090490110811}
-  - {fileID: 8746260738971098288}
   - {fileID: 9084475787628857501}
   - {fileID: 3160166406181375372}
   - {fileID: 7952556344636573254}
@@ -20433,6 +20432,74 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2052163585575912946}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1598007503526892215
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3633736873260878935, guid: f2586ddb42c8e37448aea640d8f67feb,
+        type: 3}
+      propertyPath: m_Name
+      value: Mercedes G63 RV
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f2586ddb42c8e37448aea640d8f67feb, type: 3}
 --- !u!1001 &1715799743233510417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24171,6 +24238,14 @@ PrefabInstance:
       value: Porshe 911 GV
       objectReference: {fileID: 0}
     - target: {fileID: 3736164781392191307, guid: 17c6360202e77934cb8a2ef574c9e0dd,
+<<<<<<< Updated upstream
+=======
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9073347874261615810, guid: 17c6360202e77934cb8a2ef574c9e0dd,
+>>>>>>> Stashed changes
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -25638,85 +25713,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8713681035832308860}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &8746260738971098287
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 125853778}
-    m_Modifications:
-    - target: {fileID: 3633736873260878935, guid: f2586ddb42c8e37448aea640d8f67feb,
-        type: 3}
-      propertyPath: m_Name
-      value: Mercedes G63 RV
-      objectReference: {fileID: 0}
-    - target: {fileID: 3633736873260878935, guid: f2586ddb42c8e37448aea640d8f67feb,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.38
-      objectReference: {fileID: 0}
-    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 7.343737
-      objectReference: {fileID: 0}
-    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f2586ddb42c8e37448aea640d8f67feb, type: 3}
---- !u!4 &8746260738971098288 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8053664533284245578, guid: f2586ddb42c8e37448aea640d8f67feb,
-    type: 3}
-  m_PrefabInstance: {fileID: 8746260738971098287}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8784288928297389639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26382,3 +26378,9 @@ SceneRoots:
   - {fileID: 222133412}
   - {fileID: 1078429032}
   - {fileID: 2098669424}
+<<<<<<< Updated upstream
+=======
+  - {fileID: 6741658306998672418}
+  - {fileID: 8843159629604861566}
+  - {fileID: 1598007503526892215}
+>>>>>>> Stashed changes
