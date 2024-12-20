@@ -249,7 +249,7 @@ public class HR_GamePlayHandler : MonoBehaviour {
 
         if (!isMultiplayer) {
 
-            player = (RCCP.SpawnRCC(HR_PlayerCars.Instance.cars[selectedCarIndex].playerCar.GetComponent<RCCP_CarController>(), spawnLocation.position, spawnLocation.rotation, true, false, true)).GetComponent<HR_PlayerHandler>();
+            player = (RCCP.SpawnRCC(HR_PlayerCars.Instance.cars[selectedCarIndex].racingCar.GetComponent<RCCP_CarController>(), spawnLocation.position, spawnLocation.rotation, true, false, true)).GetComponent<HR_PlayerHandler>();
             player.canCrash = true;
             player.Rigid.velocity = new Vector3(0f, 0f, minimumSpeed / 1.75f);
             StartCoroutine(CheckDayTime());
