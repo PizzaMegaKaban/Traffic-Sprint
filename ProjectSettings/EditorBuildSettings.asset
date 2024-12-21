@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MainMenu.unity
+    path: Assets/Highway Racer/Scenes/MainMenu.unity
     guid: 0426228d29bd42d44adc5f07310fec1e
   - enabled: 1
-    path: Assets/Field.unity
+    path: Assets/Highway Racer/Scenes/Field.unity
     guid: c5887df9fc879b541a0ca3571f674751
   - enabled: 1
     path: Assets/Highway Racer/Scenes/Desert.unity
@@ -24,10 +24,14 @@ EditorBuildSettings:
     path: Assets/Highway Racer/Scenes/City.unity
     guid: e782fc90b8a83a4499fec195e7b9d3fa
   - enabled: 0
-    path: Assets/CarCreate.unity
+    path: Assets/Highway Racer/Scenes/CarCreate.unity
     guid: d2a1fbd51e4b5e94b928abbc6ef0c1d5
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: a01c2e106752cfa4f99ab25855439a0c,
       type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 1580227da6dfe424eaf805b384cd725e, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 4ef0e495d5719ec4191a239c7b24ff27,
+      type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: dc199a73a093de741837ad60a1cc2b19,
+      type: 2}

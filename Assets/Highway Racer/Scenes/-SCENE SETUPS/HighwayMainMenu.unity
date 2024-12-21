@@ -1168,12 +1168,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &800127258 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5705536937406734498, guid: 47c6e185c39f4c848aee80b694bd2f5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 800127251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &800127259 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1365186773048946249, guid: 47c6e185c39f4c848aee80b694bd2f5e,
     type: 3}
   m_PrefabInstance: {fileID: 800127251}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &800127260 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1399725433121289831, guid: 47c6e185c39f4c848aee80b694bd2f5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 800127251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &800127261 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1365055597598782295, guid: 47c6e185c39f4c848aee80b694bd2f5e,
@@ -1308,9 +1332,10 @@ MonoBehaviour:
   sceneSelectionMenu: {fileID: 800127263}
   creditsMenu: {fileID: 800127262}
   loadingScreen: {fileID: 800127261}
+  loadingBar: {fileID: 800127260}
   buyCarButton: {fileID: 800127253}
   selectCarButton: {fileID: 800127259}
-  currency: {fileID: 0}
+  currency: {fileID: 800127258}
   vehicleNameText: {fileID: 800127252}
   bestScoreOneWay: {fileID: 800127257}
   bestScoreTwoWay: {fileID: 800127256}

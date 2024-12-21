@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StringExampleTable_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 9b7bd8422d2aa244899db467876de883, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 4975446159360
+    m_Localized: VOTRE SCORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311991152640
+    m_Localized: HIVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4072647389184
+    m_Localized: DEUX LIGNES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3959770279936
+    m_Localized: TOUCHER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5030710308864
+    m_Localized: DISTANCE TOTALE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47424172032
+    m_Localized: Puissance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4101856522240
+    m_Localized: TEMPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3726432759808
+    m_Localized: "Qualit\xE9 de Texture"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5248747008000
+    m_Localized: BOUTIQUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3577232977920
+    m_Localized: "PARAM\xC8TRES"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4729274068992
+    m_Localized: CONTINUER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4747997442048
+    m_Localized: "RED\xC9MARRER"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328030171136
+    m_Localized: PLUIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5226907267072
+    m_Localized: REJOUER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5173085958144
+    m_Localized: "DIRECTION OPPOS\xC9E"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4055467520000
+    m_Localized: UNE LIGNE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5063912419328
+    m_Localized: PROCHE AVEC VOITURE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4138380521472
+    m_Localized: 'MULTI
+
+      JOUEUR'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3789145993216
+    m_Localized: MOYEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3830300504064
+    m_Localized: "Unit\xE9 de Mesure"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1139553824768
+    m_Localized: Vitesse max.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4809821483008
+    m_Localized: MENU PRINCIPAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3771496361984
+    m_Localized: FAIBLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4188481482752
+    m_Localized: EMPLACEMENT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2968438140928
+    m_Localized: ALLONS-Y!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3811057037312
+    m_Localized: HAUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042715734016
+    m_Localized: Manutention
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3914975113216
+    m_Localized: GYRO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4018775748608
+    m_Localized: MODE DE JEU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4243607220224
+    m_Localized: CHAMP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4276356345856
+    m_Localized: "D\xC9SERT"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3864140148736
+    m_Localized: "Type de contr\xF4le"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4342727012352
+    m_Localized: VILLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1076052062208
+    m_Localized: Freinage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4119908806656
+    m_Localized: EXPLOSION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3626729959424
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5082551906304
+    m_Localized: HAUTE VITESSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1722296019677184
+    m_Localized: km/h
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1722909579243520
+    m_Localized: mph
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2026033909035008
+    m_Localized: "FRAN\xC7AIS"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

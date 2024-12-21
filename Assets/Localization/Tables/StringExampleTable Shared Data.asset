@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: StringExampleTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: StringExampleTable
+  m_TableCollectionNameGuidString: 9b7bd8422d2aa244899db467876de883
+  m_Entries:
+  - m_Id: 47424172032
+    m_Key: Torque
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042715734016
+    m_Key: Handling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1076052062208
+    m_Key: Braking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1139553824768
+    m_Key: Max speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2968438140928
+    m_Key: Let's go
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3577232977920
+    m_Key: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3626729959424
+    m_Key: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3726432759808
+    m_Key: Texture quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3771496361984
+    m_Key: Low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3789145993216
+    m_Key: Medium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3811057037312
+    m_Key: High
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3830300504064
+    m_Key: Measure unit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3864140148736
+    m_Key: Control type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3914975113216
+    m_Key: Gyro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3959770279936
+    m_Key: Touch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4018775748608
+    m_Key: Game mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4055467520000
+    m_Key: One way
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4072647389184
+    m_Key: Two way
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4101856522240
+    m_Key: Time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4119908806656
+    m_Key: Bomb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4138380521472
+    m_Key: Multiplayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4188481482752
+    m_Key: Location
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4243607220224
+    m_Key: Field
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4276356345856
+    m_Key: Desert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311991152640
+    m_Key: Winter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328030171136
+    m_Key: Rain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4342727012352
+    m_Key: City
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4729274068992
+    m_Key: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4747997442048
+    m_Key: Restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4809821483008
+    m_Key: Main menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4975446159360
+    m_Key: Your score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5030710308864
+    m_Key: Total distance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5063912419328
+    m_Key: Near miss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5082551906304
+    m_Key: Above 100 kmph
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5173085958144
+    m_Key: Opposte direction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5226907267072
+    m_Key: Play again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5248747008000
+    m_Key: Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1722296019677184
+    m_Key: kmph
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1722909579243520
+    m_Key: mph
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2026033909035008
+    m_Key: Language
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 507610655604342808
+  references:
+    version: 2
+    RefIds:
+    - rid: 507610655604342808
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1733774054198
