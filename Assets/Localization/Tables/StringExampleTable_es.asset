@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StringExampleTable_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 9b7bd8422d2aa244899db467876de883, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 47424172032
+    m_Localized: Potencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042715734016
+    m_Localized: "Manipulaci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1076052062208
+    m_Localized: Frenado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1139553824768
+    m_Localized: "Velocidad m\xE1x."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2968438140928
+    m_Localized: "\xA1VAMOS!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3577232977920
+    m_Localized: AJUSTES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3626729959424
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3726432759808
+    m_Localized: Calidad de la Textura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3771496361984
+    m_Localized: BAJO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3789145993216
+    m_Localized: MEDIO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3811057037312
+    m_Localized: ALTO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3830300504064
+    m_Localized: Unidad de Medida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3864140148736
+    m_Localized: Tipo de control
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3914975113216
+    m_Localized: GIRO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3959770279936
+    m_Localized: TOQUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4018775748608
+    m_Localized: MODO DE JUEGO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4055467520000
+    m_Localized: "UNA L\xCDNEA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4072647389184
+    m_Localized: "DOS L\xCDNEAS"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4101856522240
+    m_Localized: TIEMPO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4119908806656
+    m_Localized: "EXPLOSI\xD3N"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4138380521472
+    m_Localized: 'MULTI
+
+      JUGADOR'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4188481482752
+    m_Localized: "UBICACI\xD3N"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4243607220224
+    m_Localized: CAMPO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4276356345856
+    m_Localized: DESIERTO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311991152640
+    m_Localized: INVIERNO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328030171136
+    m_Localized: LLUVIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4342727012352
+    m_Localized: CIUDAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4729274068992
+    m_Localized: CONTINUAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4747997442048
+    m_Localized: REINICIAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4809821483008
+    m_Localized: "MEN\xDA PRINCIPAL"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4975446159360
+    m_Localized: "TU PUNTUACI\xD3N"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5030710308864
+    m_Localized: DISTANCIA TOTAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5063912419328
+    m_Localized: CERCA DEL COCHE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5082551906304
+    m_Localized: ALTA VELOCIDAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5173085958144
+    m_Localized: "DIRECCI\xD3N OPUESTA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5226907267072
+    m_Localized: JUEGA DE NUEVO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5248747008000
+    m_Localized: TIENDA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1722296019677184
+    m_Localized: km/h
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1722909579243520
+    m_Localized: mph
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2026033909035008
+    m_Localized: "ESPA\xD1OL"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

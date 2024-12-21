@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StringExampleTable_pt
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt
+  m_SharedData: {fileID: 11400000, guid: 9b7bd8422d2aa244899db467876de883, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 4975446159360
+    m_Localized: "A SUA PONTUA\xC7\xC3O"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311991152640
+    m_Localized: INVERNO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4072647389184
+    m_Localized: "DUAS \nLINHAS"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4055467520000
+    m_Localized: UMA LINHA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3959770279936
+    m_Localized: TOQUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5030710308864
+    m_Localized: "DIST\xC2NCIA TOTAL"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47424172032
+    m_Localized: "Pot\xEAncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4101856522240
+    m_Localized: TEMPO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3726432759808
+    m_Localized: Qualidade Da Textura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5248747008000
+    m_Localized: LOJA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3577232977920
+    m_Localized: "CONFIGURA\xC7\xD5ES"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4729274068992
+    m_Localized: CONTINUAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4747997442048
+    m_Localized: REINICIAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328030171136
+    m_Localized: CHUVA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5226907267072
+    m_Localized: JOGAR NOVAMENTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5173085958144
+    m_Localized: "DIREC\xC7\xC3O OPOSTA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5063912419328
+    m_Localized: FECHAR COM CARRO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4138380521472
+    m_Localized: 'MULTI
+
+      JOGADOR'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3789145993216
+    m_Localized: "M\xC9DIO"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3830300504064
+    m_Localized: Unidade De Medida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1139553824768
+    m_Localized: "Velocidade m\xE1x."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4809821483008
+    m_Localized: MENU PRINCIPAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3771496361984
+    m_Localized: BAIXO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4188481482752
+    m_Localized: "LOCALIZA\xC7\xC3O"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2968438140928
+    m_Localized: VAMOS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3811057037312
+    m_Localized: ALTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042715734016
+    m_Localized: Manuseamento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3914975113216
+    m_Localized: GYRO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4018775748608
+    m_Localized: MODO DE JOGO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4243607220224
+    m_Localized: CAMPO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4276356345856
+    m_Localized: DESERTO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3864140148736
+    m_Localized: Tipo de controlo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4342727012352
+    m_Localized: CIDADE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1076052062208
+    m_Localized: Travagem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4119908806656
+    m_Localized: "EXPLOS\xC3O"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3626729959424
+    m_Localized: "\xC1udio"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5082551906304
+    m_Localized: ALTA VELOCIDADE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1722296019677184
+    m_Localized: km/h
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1722909579243520
+    m_Localized: mph
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2026033909035008
+    m_Localized: "PORTUGU\xCAS"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

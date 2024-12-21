@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3667263165865966256}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Wheel FL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -266,6 +266,7 @@ Transform:
   - {fileID: 8193078122997894349}
   - {fileID: 1485063913818786934}
   - {fileID: 8044512011105470047}
+  - {fileID: 3142605530368497895}
   - {fileID: 1051659679952997123}
   - {fileID: 554195621582863444}
   - {fileID: 1230475025536223923}
@@ -654,7 +655,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4184602618317934899}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Wheel RR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -979,6 +980,161 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &2921079700904132222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3142605530368497895}
+  - component: {fileID: 338222896178907208}
+  m_Layer: 15
+  m_Name: RCCP_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3142605530368497895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2921079700904132222}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1295227485205121294}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &338222896178907208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2921079700904132222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1fd19d8c9d4ac84f9fefee7fd62cd60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  completeSetup: 0
+  checkedSetup: 0
+  audioMixer: {fileID: 0}
+  engineSounds:
+  - audioSourceOn: {fileID: 0}
+    audioClipOn: {fileID: 8300000, guid: 710b840544560c34a9cbdcb897e4cc39, type: 3}
+    audioSourceOff: {fileID: 0}
+    audioClipOff: {fileID: 8300000, guid: 710b840544560c34a9cbdcb897e4cc39, type: 3}
+    localPosition: {x: 0, y: 0, z: 1.5}
+    minPitch: 0.1
+    maxPitch: 1.85
+    minRPM: 800
+    maxRPM: 9000
+    minDistance: 10
+    maxDistance: 200
+    minVolume: 3
+    maxVolume: 5
+  engineStart:
+    audioSource: {fileID: 0}
+    audioClips: {fileID: 0}
+    localPosition: {x: 0, y: 0, z: 1.5}
+    minDistance: 10
+    maxDistance: 100
+    maxVolume: 1
+  gearboxSound:
+    audioSource: {fileID: 0}
+    audioClips: []
+    localPosition: {x: 0, y: 0, z: 0}
+    minDistance: 1
+    maxDistance: 10
+    maxVolume: 1
+  crashSound:
+    audioSource: {fileID: 0}
+    audioClips: []
+    localPosition: {x: 0, y: 0, z: 0}
+    minDistance: 10
+    maxDistance: 100
+    maxVolume: 1
+  reverseSound:
+    audioSource: {fileID: 0}
+    audioClips: {fileID: 0}
+    localPosition: {x: 0, y: 0, z: 0}
+    minDistance: 10
+    maxDistance: 100
+    minPitch: 0.8
+    maxPitch: 1
+    maxVolume: 1
+  windSound:
+    audioSource: {fileID: 0}
+    audioClips: {fileID: 0}
+    localPosition: {x: 0, y: 0, z: 0}
+    minDistance: 10
+    maxDistance: 100
+    maxVolume: 0.1
+  brakeSound:
+    audioSource: {fileID: 0}
+    audioClips: {fileID: 0}
+    localPosition: {x: 0, y: 0, z: 0}
+    minDistance: 10
+    maxDistance: 100
+    maxVolume: 0.25
+  nosSound:
+    audioSource: {fileID: 0}
+    audioClips: {fileID: 0}
+    localPosition: {x: 0, y: 0, z: 0}
+    minDistance: 10
+    maxDistance: 100
+    maxVolume: 1
+  turboSound:
+    audioSource: {fileID: 0}
+    audioClips: {fileID: 0}
+    localPosition: {x: 0, y: 0, z: 1.5}
+    minDistance: 10
+    maxDistance: 100
+    maxVolume: 1
+  exhaustFlameSound:
+    audioSource: {fileID: 0}
+    audioClips: []
+    localPosition: {x: 0, y: -0.5, z: -2}
+    minDistance: 10
+    maxDistance: 100
+    maxVolume: 1
+  blowSound:
+    audioSource: {fileID: 0}
+    audioClips: []
+    localPosition: {x: 0, y: 0, z: -1.5}
+    minDistance: 1
+    maxDistance: 20
+    maxVolume: 0.2
+  wheelDeflateSound:
+    audioSource: {fileID: 0}
+    audioClips: {fileID: 0}
+    localPosition: {x: 0, y: 0, z: 1}
+    minDistance: 10
+    maxDistance: 20
+    maxVolume: 1
+  wheelInflateSound:
+    audioSource: {fileID: 0}
+    audioClips: {fileID: 0}
+    localPosition: {x: 0, y: 0, z: 0}
+    minDistance: 10
+    maxDistance: 100
+    maxVolume: 1
+    lastInflate: 1
+  wheelFlatSound:
+    audioSource: {fileID: 0}
+    audioClips: {fileID: 0}
+    localPosition: {x: 0, y: 0, z: 0}
+    minDistance: 10
+    maxDistance: 100
+    maxVolume: 1
 --- !u!1 &3261575225831465584
 GameObject:
   m_ObjectHideFlags: 0
@@ -1347,7 +1503,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7540679833487230969}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Wheel FR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1754,7 +1910,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6239616225603316121}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: COM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2192,13 +2348,13 @@ MonoBehaviour:
   engineRunning: 1
   engineStarting: 0
   engineRPM: 0
-  minEngineRPM: 750
-  maxEngineRPM: 7000
+  minEngineRPM: 800
+  maxEngineRPM: 9000
   NMCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 750
+      time: 800
       value: 0.8
       inSlope: 0
       outSlope: 0
@@ -2216,7 +2372,7 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 7000
+      time: 9000
       value: 0.85
       inSlope: 0
       outSlope: 0
@@ -2240,7 +2396,7 @@ MonoBehaviour:
   engineInertia: 0.15
   fuelInput: 0
   idleInput: 0
-  maximumTorqueAsNM: 300
+  maximumTorqueAsNM: 1000
   producedTorqueAsNM: 0
   outputEvent:
     m_PersistentCalls:
@@ -2266,7 +2422,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7234248811117184925}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Wheel RL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
