@@ -7386,12 +7386,8 @@ MonoBehaviour:
   loadingScreen: {fileID: 6764271712727035546}
   buyCarButton: {fileID: 7609344590813374747}
   selectCarButton: {fileID: 6763348629936485252}
-  currency: {fileID: 0}
+  currency: {fileID: 572839365}
   vehicleNameText: {fileID: 0}
-  bestScoreOneWay: {fileID: 0}
-  bestScoreTwoWay: {fileID: 0}
-  bestScoreTimeLeft: {fileID: 0}
-  bestScoreBomb: {fileID: 0}
 --- !u!4 &433328017
 Transform:
   m_ObjectHideFlags: 0
@@ -61100,7 +61096,7 @@ MonoBehaviour:
   checkPaddingRequired: 0
   m_isRichText: 1
   m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
+  m_isOrthographic: 1
   m_isCullingEnabled: 0
   m_horizontalMapping: 0
   m_verticalMapping: 0
@@ -61622,7 +61618,7 @@ MonoBehaviour:
   checkPaddingRequired: 0
   m_isRichText: 1
   m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
+  m_isOrthographic: 1
   m_isCullingEnabled: 0
   m_horizontalMapping: 0
   m_verticalMapping: 0

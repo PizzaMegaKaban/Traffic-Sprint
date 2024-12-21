@@ -64,6 +64,10 @@ public class HR_PlayerCarsEditor : Editor {
             if (GUILayout.Button("Edit RCCP"))
                 Selection.activeGameObject = prop.cars[i].playerCar.gameObject;
 
+            EditorGUILayout.Space();
+
+            prop.cars[i].racingCar = (GameObject)EditorGUILayout.ObjectField("Racing Car Prefab", prop.cars[i].racingCar, typeof(GameObject), false, GUILayout.MaxWidth(475f));
+
             if (prop.cars[i].playerCar && prop.cars[i].playerCar.GetComponent<RCCP_CarController>()) {
 
                 if (prop.cars[i].playerCar.GetComponent<HR_PlayerHandler>() == null)

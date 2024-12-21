@@ -62,10 +62,10 @@ public class HR_MainMenuHandler : MonoBehaviour {
 
     [Header("Best Score Texts")]
     public Text vehicleNameText;        //	Current vehicle name text.
-    public Text bestScoreOneWay;        //	Best score one way text.
-    public Text bestScoreTwoWay;        //	Best score two ways text.
-    public Text bestScoreTimeLeft;      //	Best score time left text.
-    public Text bestScoreBomb;      //	Best score bomb text.
+    //public Text bestScoreOneWay;        //	Best score one way text.
+    //public Text bestScoreTwoWay;        //	Best score two ways text.
+    //public Text bestScoreTimeLeft;      //	Best score time left text.
+    //public Text bestScoreBomb;      //	Best score bomb text.
 
     internal AudioSource mainMenuSoundtrack;
 
@@ -303,8 +303,8 @@ public class HR_MainMenuHandler : MonoBehaviour {
 
         activeMenu.SetActive(true);
 
-        if (activeMenu == modsSelectionMenu)
-            BestScores();
+        //if (activeMenu == modsSelectionMenu)
+        //    BestScores();
 
     }
 
@@ -343,16 +343,16 @@ public class HR_MainMenuHandler : MonoBehaviour {
     /// <summary>
     /// Displays best scores of all four modes.
     /// </summary>
-    private void BestScores() {
+    //private void BestScores() {
 
-        int[] scores = HR_API.GetHighScores();
+    //    int[] scores = HR_API.GetHighScores();
 
-        bestScoreOneWay.text = "BEST SCORE\n" + scores[0];
-        bestScoreTwoWay.text = "BEST SCORE\n" + scores[1];
-        bestScoreTimeLeft.text = "BEST SCORE\n" + scores[2];
-        bestScoreBomb.text = "BEST SCORE\n" + scores[3];
+    //    bestScoreOneWay.text = "BEST SCORE\n" + scores[0];
+    //    bestScoreTwoWay.text = "BEST SCORE\n" + scores[1];
+    //    bestScoreTimeLeft.text = "BEST SCORE\n" + scores[2];
+    //    bestScoreBomb.text = "BEST SCORE\n" + scores[3];
 
-    }
+    //}
 
 #if PHOTON_UNITY_NETWORKING && BCG_HR_PHOTON
 
