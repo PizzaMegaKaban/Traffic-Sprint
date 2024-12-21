@@ -35,6 +35,7 @@ public class HR_PlayerCars : ScriptableObject {
 
         public string vehicleName = "";
         public GameObject playerCar;
+        public GameObject racingCar;
 
         public bool unlocked = false;
         public int price = 25000;
