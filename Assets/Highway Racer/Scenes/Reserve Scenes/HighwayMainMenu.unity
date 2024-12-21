@@ -5560,6 +5560,7 @@ MonoBehaviour:
   sceneSelectionMenu: {fileID: 6762870545884340753}
   creditsMenu: {fileID: 6764041120507809906}
   loadingScreen: {fileID: 6764271712727035546}
+  loadingBar: {fileID: 0}
   buyCarButton: {fileID: 7609344590813374747}
   selectCarButton: {fileID: 6763348629936485252}
   currency: {fileID: 0}

@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StringExampleTable_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 9b7bd8422d2aa244899db467876de883, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 4729274068992
+    m_Localized: DEVAM ETMEK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47424172032
+    m_Localized: "G\xFC\xE7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042715734016
+    m_Localized: "Ta\u015F\u0131ma"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1076052062208
+    m_Localized: Frenleme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1139553824768
+    m_Localized: "Maks. h\u0131z"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2968438140928
+    m_Localized: HADI GIDELIM!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3577232977920
+    m_Localized: AYARLAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3626729959424
+    m_Localized: Ses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3726432759808
+    m_Localized: Doku Kalitesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3771496361984
+    m_Localized: "D\xDC\u015E\xDCK"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3789145993216
+    m_Localized: ORTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3811057037312
+    m_Localized: "Y\xDCKSEK"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3830300504064
+    m_Localized: "\xD6l\xE7\xFC Birimi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3864140148736
+    m_Localized: Kontrol tipi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3914975113216
+    m_Localized: "J\u0130RO"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3959770279936
+    m_Localized: DOKUNMA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4018775748608
+    m_Localized: OYUN MODU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4055467520000
+    m_Localized: "B\u0130R SATIR"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4072647389184
+    m_Localized: "\u0130K\u0130 SATIR"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4101856522240
+    m_Localized: ZAMAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4119908806656
+    m_Localized: PATLAMA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4138380521472
+    m_Localized: "\xC7OK \nOYUNCULU"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4188481482752
+    m_Localized: KONUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4243607220224
+    m_Localized: ALAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4276356345856
+    m_Localized: "\xC7\xD6L"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311991152640
+    m_Localized: "KI\u015E"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328030171136
+    m_Localized: "YA\u011EMUR"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4747997442048
+    m_Localized: "TEKRAR BA\u015ELAT"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4809821483008
+    m_Localized: "ANA MEN\xDC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4975446159360
+    m_Localized: PUANINIZ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5030710308864
+    m_Localized: TOPLAM MESAFE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5063912419328
+    m_Localized: ARABANIN YANINDA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5082551906304
+    m_Localized: "Y\xDCKSEK HIZ"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5173085958144
+    m_Localized: "TERS Y\xD6N"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5226907267072
+    m_Localized: TEKRAR OYNA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5248747008000
+    m_Localized: "MA\u011EAZA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1722296019677184
+    m_Localized: km/s
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1722909579243520
+    m_Localized: mil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4342727012352
+    m_Localized: "\u015EEH\u0130R"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2026033909035008
+    m_Localized: "T\xDCRK\xC7E"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
