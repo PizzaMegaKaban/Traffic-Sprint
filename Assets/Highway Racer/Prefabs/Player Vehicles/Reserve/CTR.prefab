@@ -12914,7 +12914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e89544362322814bb0e5edac007336e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  completeSetup: 0
+  completeSetup: 1
   checkedSetup: 0
   overrideClutch: 0
   clutchInput: 1
