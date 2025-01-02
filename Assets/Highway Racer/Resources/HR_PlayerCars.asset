@@ -190,7 +190,7 @@ MonoBehaviour:
   - vehicleName: New Player Vehicle 40
     playerCar: {fileID: 6893701288604583921, guid: 7ad6504b88be6e147b81056dca1b93c5,
       type: 3}
-    racingCar: {fileID: 8970472222724924349, guid: d4fd450a983d1be4da01cd69967b679f,
+    racingCar: {fileID: 1134076971106766739, guid: 074f41f0dff1c3442bd7ae5d0c097ec0,
       type: 3}
-    unlocked: 1
+    unlocked: 0
     price: 25000
