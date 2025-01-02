@@ -98,7 +98,23 @@ public class HR_CustomizationUIManager : MonoBehaviour {
 
         }
 
-        if (!HR_MainMenuHandler.Instance.currentCar.Customizer) {
+        //if (!HR_MainMenuHandler.Instance.currentCar.Customizer) {
+
+        //    paintsButton.interactable = false;
+        //    wheelsButton.interactable = false;
+        //    customizationButton.interactable = false;
+        //    upgradesButton.interactable = false;
+        //    spoilersButton.interactable = false;
+        //    sirensButton.interactable = false;
+        //    decalsButton.interactable = false;
+        //    neonsButton.interactable = false;
+
+        //    return;
+
+        //}
+
+        if (!HR_MainMenuHandler.Instance.currentRacingCar.Customizer)
+        {
 
             paintsButton.interactable = false;
             wheelsButton.interactable = false;
@@ -113,14 +129,16 @@ public class HR_CustomizationUIManager : MonoBehaviour {
 
         }
 
-        paintsButton.interactable = HR_MainMenuHandler.Instance.currentCar.Customizer.PaintManager;
-        wheelsButton.interactable = HR_MainMenuHandler.Instance.currentCar.Customizer.WheelManager;
-        customizationButton.interactable = HR_MainMenuHandler.Instance.currentCar.Customizer.CustomizationManager;
-        upgradesButton.interactable = HR_MainMenuHandler.Instance.currentCar.Customizer.UpgradeManager;
-        spoilersButton.interactable = HR_MainMenuHandler.Instance.currentCar.Customizer.SpoilerManager;
-        sirensButton.interactable = HR_MainMenuHandler.Instance.currentCar.Customizer.SirenManager;
-        decalsButton.interactable = HR_MainMenuHandler.Instance.currentCar.Customizer.DecalManager;
-        neonsButton.interactable = HR_MainMenuHandler.Instance.currentCar.Customizer.NeonManager;
+        // изменение ссылки на компонент обновления
+        paintsButton.interactable = HR_MainMenuHandler.Instance.currentRacingCar.Customizer.PaintManager;
+        wheelsButton.interactable = HR_MainMenuHandler.Instance.currentRacingCar.Customizer.WheelManager;
+        customizationButton.interactable = HR_MainMenuHandler.Instance.currentRacingCar.Customizer.CustomizationManager;
+        upgradesButton.interactable = HR_MainMenuHandler.Instance.currentRacingCar.Customizer.UpgradeManager;
+        spoilersButton.interactable = HR_MainMenuHandler.Instance.currentRacingCar.Customizer.SpoilerManager;
+        sirensButton.interactable = HR_MainMenuHandler.Instance.currentRacingCar.Customizer.SirenManager;
+        decalsButton.interactable = HR_MainMenuHandler.Instance.currentRacingCar.Customizer.DecalManager;
+        neonsButton.interactable = HR_MainMenuHandler.Instance.currentRacingCar.Customizer.NeonManager;
+        // ---
 
         engine.SetValueWithoutNotify(HR_MainMenuHandler.Instance.currentCar.Engine.maximumTorqueAsNM / 800f);
 

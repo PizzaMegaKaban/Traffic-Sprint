@@ -25,8 +25,8 @@ public class HR_UIPurchasable_ForUpgrades : MonoBehaviour, IPointerClickHandler 
 
     public int price = 1000;
 
-    public Text priceText;
-    public Text levelText;
+    public TextMeshProUGUI priceText;
+    public TextMeshProUGUI levelText;
 
     public AudioClip unlockAudioclip;
 

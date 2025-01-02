@@ -36,7 +36,10 @@ public class HR_MainMenuHandler : MonoBehaviour {
     public Transform carSpawnLocation;      //  Spawn location.
 
     private GameObject[] createdCars;       //	All created cars will be stored.
+    private GameObject[] racingCars;        //  Racing versions of all created cars.
+    
     public RCCP_CarController currentCar;      //	Current selected car.
+    public RCCP_CarController currentRacingCar; // Current selected car racing version.
 
     internal int carIndex = 0;      //	Current car index.
 
@@ -147,9 +150,12 @@ public class HR_MainMenuHandler : MonoBehaviour {
 
         //	Creating a new array.
         createdCars = new GameObject[HR_PlayerCars.Instance.cars.Length];
+        racingCars = new GameObject[HR_PlayerCars.Instance.cars.Length];
 
         //	Setting array elements.
         for (int i = 0; i < createdCars.Length; i++) {
+            var x = HR_PlayerCars.Instance.cars[i].playerCar;
+            var y = HR_PlayerCars.Instance.cars[i].racingCar;
 
             createdCars[i] = (RCCP.SpawnRCC(HR_PlayerCars.Instance.cars[i].playerCar.GetComponent<RCCP_CarController>(), carSpawnLocation.position, carSpawnLocation.rotation, false, false, false)).gameObject;
             createdCars[i].SetActive(false);
@@ -157,6 +163,11 @@ public class HR_MainMenuHandler : MonoBehaviour {
             if (createdCars[i].GetComponent<RCCP_CarController>().Lights != null)
                 createdCars[i].GetComponent<RCCP_CarController>().Lights.lowBeamHeadlights = true;
 
+            racingCars[i] = (RCCP.SpawnRCC(HR_PlayerCars.Instance.cars[i].racingCar.GetComponent<RCCP_CarController>(), carSpawnLocation.position, carSpawnLocation.rotation, false, false, false)).gameObject;
+            racingCars[i].SetActive(false);
+
+            if (racingCars[i].GetComponent<RCCP_CarController>().Lights != null)
+                racingCars[i].GetComponent<RCCP_CarController>().Lights.lowBeamHeadlights = true;
         }
 
     }
@@ -209,6 +220,7 @@ public class HR_MainMenuHandler : MonoBehaviour {
 
         //	Setting current car.
         currentCar = createdCars[carIndex].GetComponent<RCCP_CarController>();
+        currentRacingCar = racingCars[carIndex].GetComponent<RCCP_CarController>();
 
         //	Displaying car name text.
         if (vehicleNameText)

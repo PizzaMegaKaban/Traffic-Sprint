@@ -11,6 +11,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 
 /// <summary>
 /// UI upgrade button.
@@ -27,7 +28,7 @@ public class RCCP_UI_Upgrade : RCCP_UIComponent {
     /// <summary>
     /// Level count will be displayed on this text, if choosen.
     /// </summary>
-    public Text levelText;
+    public TextMeshProUGUI levelText;
 
     private void OnEnable() {
 

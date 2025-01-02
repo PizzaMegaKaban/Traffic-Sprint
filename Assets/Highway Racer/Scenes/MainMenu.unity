@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.32680202, g: 0.33326447, b: 0.31363028, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -7377,6 +7377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   carSpawnLocation: {fileID: 1200959012}
   currentCar: {fileID: 0}
+  currentRacingCar: {fileID: 0}
   optionsMenu: {fileID: 6763873865545939508}
   carSelectionMenu: {fileID: 6762442043438610812}
   modCarPanel: {fileID: 2302675248103964104}
@@ -12674,7 +12675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upgradeClass: 2
-  levelText: {fileID: 0}
+  levelText: {fileID: 1149962255}
 --- !u!1 &652920995
 GameObject:
   m_ObjectHideFlags: 0
@@ -25945,7 +25946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upgradeClass: 1
-  levelText: {fileID: 0}
+  levelText: {fileID: 1405179155}
 --- !u!1 &1331953389
 GameObject:
   m_ObjectHideFlags: 0
@@ -31101,7 +31102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upgradeClass: 0
-  levelText: {fileID: 0}
+  levelText: {fileID: 4952963760581069199}
 --- !u!114 &1606692767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42735,8 +42736,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxLevel: 1
   price: 1000
-  priceText: {fileID: 0}
-  levelText: {fileID: 0}
+  priceText: {fileID: 8801245693529979922}
+  levelText: {fileID: 6834954581345397814}
   unlockAudioclip: {fileID: 8300000, guid: 1c4e063d68f5eb34f8c966c90b3a9780, type: 3}
 --- !u!224 &224884060607188257
 RectTransform:
@@ -46062,8 +46063,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxLevel: 5
   price: 1000
-  priceText: {fileID: 0}
-  levelText: {fileID: 0}
+  priceText: {fileID: 6196261919681752791}
+  levelText: {fileID: 5924176018466358070}
   unlockAudioclip: {fileID: 8300000, guid: 1c4e063d68f5eb34f8c966c90b3a9780, type: 3}
 --- !u!23 &1712284490310479552
 MeshRenderer:
@@ -50287,8 +50288,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxLevel: 5
   price: 1000
-  priceText: {fileID: 0}
-  levelText: {fileID: 0}
+  priceText: {fileID: 9086924190482739448}
+  levelText: {fileID: 1405179155}
   unlockAudioclip: {fileID: 8300000, guid: 1c4e063d68f5eb34f8c966c90b3a9780, type: 3}
 --- !u!224 &3203163432846618316
 RectTransform:
@@ -50598,7 +50599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upgradeClass: 3
-  levelText: {fileID: 0}
+  levelText: {fileID: 5924176018466358070}
 --- !u!114 &3331674067397381619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50907,8 +50908,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxLevel: 5
   price: 1000
-  priceText: {fileID: 0}
-  levelText: {fileID: 0}
+  priceText: {fileID: 6011633451503731630}
+  levelText: {fileID: 1149962255}
   unlockAudioclip: {fileID: 8300000, guid: 1c4e063d68f5eb34f8c966c90b3a9780, type: 3}
 --- !u!114 &3434866970912924953
 MonoBehaviour:
@@ -60136,7 +60137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upgradeClass: 4
-  levelText: {fileID: 0}
+  levelText: {fileID: 6834954581345397814}
 --- !u!1 &5826456484909359860
 GameObject:
   m_ObjectHideFlags: 0
@@ -61452,8 +61453,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxLevel: 5
   price: 1000
-  priceText: {fileID: 0}
-  levelText: {fileID: 0}
+  priceText: {fileID: 8091471617724156760}
+  levelText: {fileID: 4952963760581069199}
   unlockAudioclip: {fileID: 8300000, guid: 1c4e063d68f5eb34f8c966c90b3a9780, type: 3}
 --- !u!224 &6157160938939185870
 RectTransform:
