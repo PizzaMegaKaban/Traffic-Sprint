@@ -19,52 +19,31 @@ MonoBehaviour:
     unlocked: 0
     price: 25000
   cars:
-  - vehicleName: New Player Vehicle 42
-    playerCar: {fileID: 4353148540237052711, guid: ea904734e0462964b9a29cdf440bbc75,
+  - vehicleName: New Player Vehicle 57
+    playerCar: {fileID: 1230920211726208416, guid: c9f9c3c402e1cb240b85bc71cd541933,
       type: 3}
-    racingCar: {fileID: 427608777226310825, guid: a36bd96ef465ea84a8498cf0a0a8fddd,
+    racingCar: {fileID: 8149650214494216054, guid: 399ef3255fead38488e68b229810ef89,
       type: 3}
     unlocked: 1
+    price: 0
+  - vehicleName: New Player Vehicle 81
+    playerCar: {fileID: 1368437462383699859, guid: 3bbf88f0a7e984d46970b28a8cedb6fa,
+      type: 3}
+    racingCar: {fileID: 1255465967279276190, guid: fd2895fdf9b58394685cc855e234fffe,
+      type: 3}
+    unlocked: 0
     price: 25000
-  - vehicleName: New Player Vehicle 43
-    playerCar: {fileID: 3819365977032053992, guid: 075dba1225287344b8cc167a1bb3c56c,
+  - vehicleName: New Player Vehicle 56
+    playerCar: {fileID: 5991878702689178294, guid: 361898474118d4949a46440373773c67,
       type: 3}
-    racingCar: {fileID: 4421480470122863153, guid: 4776b654407a9b94d85d932096f808a1,
+    racingCar: {fileID: 5850542355586443398, guid: 056dd69846e2d9c47bc2e0f72fc592c7,
       type: 3}
-    unlocked: 1
-    price: 25000
-  - vehicleName: New Player Vehicle 95
-    playerCar: {fileID: 8645673886041265317, guid: c4043c78991e92345a78bf3be1dab09b,
-      type: 3}
-    racingCar: {fileID: 898808832775522825, guid: d21327eef34180d4c81d69ea60c76b5a,
-      type: 3}
-    unlocked: 1
+    unlocked: 0
     price: 25000
   - vehicleName: New Player Vehicle 41
     playerCar: {fileID: 6728329933896581240, guid: 16d4a39d92fbe534e9a542c88741101f,
       type: 3}
     racingCar: {fileID: 962243743887978915, guid: 633fb3ce2aaf9534c80f804bd7c748fd,
-      type: 3}
-    unlocked: 1
-    price: 25000
-  - vehicleName: New Player Vehicle 60
-    playerCar: {fileID: 2913928020844657621, guid: e66cd2f4ad0cc1c45914893e2a657647,
-      type: 3}
-    racingCar: {fileID: 4347572336005410631, guid: 329680ace83b2094f85f01b5f00482b6,
-      type: 3}
-    unlocked: 1
-    price: 25000
-  - vehicleName: New Player Vehicle 40
-    playerCar: {fileID: 6893701288604583921, guid: 7ad6504b88be6e147b81056dca1b93c5,
-      type: 3}
-    racingCar: {fileID: 8970472222724924349, guid: d4fd450a983d1be4da01cd69967b679f,
-      type: 3}
-    unlocked: 1
-    price: 25000
-  - vehicleName: New Player Vehicle 37
-    playerCar: {fileID: 2615222075086400148, guid: e957d1e25fa7e974d8a889188c9b3d71,
-      type: 3}
-    racingCar: {fileID: 7498707538272047733, guid: 6e225307a218f344dabc9e5d0b82a157,
       type: 3}
     unlocked: 1
     price: 25000
@@ -75,38 +54,10 @@ MonoBehaviour:
       type: 3}
     unlocked: 1
     price: 25000
-  - vehicleName: New Player Vehicle 98
-    playerCar: {fileID: 8237886839413435330, guid: a7bf0f94ea10fb046a3ae39339e08d31,
+  - vehicleName: New Player Vehicle 49
+    playerCar: {fileID: 4535662855851295940, guid: b6aaa437fbdb81b44a226cdedff32a03,
       type: 3}
-    racingCar: {fileID: 6735943809245274647, guid: 94032a7d80248dd418b726eb150bb20e,
-      type: 3}
-    unlocked: 1
-    price: 25000
-  - vehicleName: New Player Vehicle 7
-    playerCar: {fileID: 4878980221108767768, guid: 59c4facaa7c26f741a2f3e51fdb65b36,
-      type: 3}
-    racingCar: {fileID: 3905601822984185815, guid: 1bdf0ec8e3c0d7840b48eb36e23021c1,
-      type: 3}
-    unlocked: 1
-    price: 25000
-  - vehicleName: New Player Vehicle 91
-    playerCar: {fileID: 5889998670708818054, guid: 0fac94a15accd4b458b0c6c294186ff5,
-      type: 3}
-    racingCar: {fileID: 7415905484065076853, guid: c136e1964fb82bd4f9e96408e020a3d2,
-      type: 3}
-    unlocked: 1
-    price: 25000
-  - vehicleName: New Player Vehicle 8
-    playerCar: {fileID: 7665299193358915677, guid: 1100ab8ac0a30544da1532878e6f1657,
-      type: 3}
-    racingCar: {fileID: 8308676985655142552, guid: 769952616d2dfc54abf8ef2b7325e4a2,
-      type: 3}
-    unlocked: 1
-    price: 25000
-  - vehicleName: New Player Vehicle 40
-    playerCar: {fileID: 7525301924930230410, guid: 3055808b26729d9478d8e7d64a2ed4f4,
-      type: 3}
-    racingCar: {fileID: 3633736873260878935, guid: f2586ddb42c8e37448aea640d8f67feb,
+    racingCar: {fileID: 224703177350379434, guid: 12c72b8bd94722346a515fca5adbbf03,
       type: 3}
     unlocked: 1
     price: 25000
@@ -117,24 +68,10 @@ MonoBehaviour:
       type: 3}
     unlocked: 1
     price: 25000
-  - vehicleName: New Player Vehicle 68
-    playerCar: {fileID: 5558296051955182506, guid: 3e9ebf32ad923664cb032097ec2d9593,
+  - vehicleName: New Player Vehicle 42
+    playerCar: {fileID: 4353148540237052711, guid: ea904734e0462964b9a29cdf440bbc75,
       type: 3}
-    racingCar: {fileID: 9142715480453951584, guid: 4f4d9f234cb319448bb16d554f3c1bd6,
-      type: 3}
-    unlocked: 1
-    price: 25000
-  - vehicleName: New Player Vehicle 56
-    playerCar: {fileID: 5991878702689178294, guid: 361898474118d4949a46440373773c67,
-      type: 3}
-    racingCar: {fileID: 5850542355586443398, guid: 056dd69846e2d9c47bc2e0f72fc592c7,
-      type: 3}
-    unlocked: 1
-    price: 25000
-  - vehicleName: New Player Vehicle 81
-    playerCar: {fileID: 1368437462383699859, guid: 3bbf88f0a7e984d46970b28a8cedb6fa,
-      type: 3}
-    racingCar: {fileID: 1255465967279276190, guid: fd2895fdf9b58394685cc855e234fffe,
+    racingCar: {fileID: 427608777226310825, guid: a36bd96ef465ea84a8498cf0a0a8fddd,
       type: 3}
     unlocked: 1
     price: 25000
@@ -142,6 +79,27 @@ MonoBehaviour:
     playerCar: {fileID: 5656083831848653761, guid: 6b620f6bfb9d7414f94aefecca69ad04,
       type: 3}
     racingCar: {fileID: 4183023715822190260, guid: aeb4a042d2a562b4d929bf4ef48240e3,
+      type: 3}
+    unlocked: 1
+    price: 25000
+  - vehicleName: New Player Vehicle 40
+    playerCar: {fileID: 7525301924930230410, guid: 3055808b26729d9478d8e7d64a2ed4f4,
+      type: 3}
+    racingCar: {fileID: 3633736873260878935, guid: f2586ddb42c8e37448aea640d8f67feb,
+      type: 3}
+    unlocked: 1
+    price: 25000
+  - vehicleName: New Player Vehicle 95
+    playerCar: {fileID: 8645673886041265317, guid: c4043c78991e92345a78bf3be1dab09b,
+      type: 3}
+    racingCar: {fileID: 898808832775522825, guid: d21327eef34180d4c81d69ea60c76b5a,
+      type: 3}
+    unlocked: 1
+    price: 25000
+  - vehicleName: New Player Vehicle 68
+    playerCar: {fileID: 5558296051955182506, guid: 3e9ebf32ad923664cb032097ec2d9593,
+      type: 3}
+    racingCar: {fileID: 9142715480453951584, guid: 4f4d9f234cb319448bb16d554f3c1bd6,
       type: 3}
     unlocked: 1
     price: 25000
@@ -159,6 +117,27 @@ MonoBehaviour:
       type: 3}
     unlocked: 1
     price: 25000
+  - vehicleName: New Player Vehicle 60
+    playerCar: {fileID: 2913928020844657621, guid: e66cd2f4ad0cc1c45914893e2a657647,
+      type: 3}
+    racingCar: {fileID: 4347572336005410631, guid: 329680ace83b2094f85f01b5f00482b6,
+      type: 3}
+    unlocked: 1
+    price: 25000
+  - vehicleName: New Player Vehicle 98
+    playerCar: {fileID: 8237886839413435330, guid: a7bf0f94ea10fb046a3ae39339e08d31,
+      type: 3}
+    racingCar: {fileID: 6735943809245274647, guid: 94032a7d80248dd418b726eb150bb20e,
+      type: 3}
+    unlocked: 1
+    price: 25000
+  - vehicleName: New Player Vehicle 8
+    playerCar: {fileID: 7665299193358915677, guid: 1100ab8ac0a30544da1532878e6f1657,
+      type: 3}
+    racingCar: {fileID: 8308676985655142552, guid: 769952616d2dfc54abf8ef2b7325e4a2,
+      type: 3}
+    unlocked: 1
+    price: 25000
   - vehicleName: New Player Vehicle 57
     playerCar: {fileID: 4063250267887825335, guid: bb7eeb774513b73459485744295588a4,
       type: 3}
@@ -166,17 +145,38 @@ MonoBehaviour:
       type: 3}
     unlocked: 1
     price: 25000
-  - vehicleName: New Player Vehicle 49
-    playerCar: {fileID: 4535662855851295940, guid: b6aaa437fbdb81b44a226cdedff32a03,
+  - vehicleName: New Player Vehicle 21
+    playerCar: {fileID: 3736164781392191307, guid: 17c6360202e77934cb8a2ef574c9e0dd,
       type: 3}
-    racingCar: {fileID: 224703177350379434, guid: 12c72b8bd94722346a515fca5adbbf03,
+    racingCar: {fileID: 1134076971106766739, guid: 074f41f0dff1c3442bd7ae5d0c097ec0,
+      type: 3}
+    unlocked: 0
+    price: 25000
+  - vehicleName: New Player Vehicle 43
+    playerCar: {fileID: 3819365977032053992, guid: 075dba1225287344b8cc167a1bb3c56c,
+      type: 3}
+    racingCar: {fileID: 4421480470122863153, guid: 4776b654407a9b94d85d932096f808a1,
       type: 3}
     unlocked: 1
     price: 25000
-  - vehicleName: New Player Vehicle 57
-    playerCar: {fileID: 1230920211726208416, guid: c9f9c3c402e1cb240b85bc71cd541933,
+  - vehicleName: New Player Vehicle 7
+    playerCar: {fileID: 4878980221108767768, guid: 59c4facaa7c26f741a2f3e51fdb65b36,
       type: 3}
-    racingCar: {fileID: 8149650214494216054, guid: 399ef3255fead38488e68b229810ef89,
+    racingCar: {fileID: 3905601822984185815, guid: 1bdf0ec8e3c0d7840b48eb36e23021c1,
+      type: 3}
+    unlocked: 1
+    price: 25000
+  - vehicleName: New Player Vehicle 37
+    playerCar: {fileID: 2615222075086400148, guid: e957d1e25fa7e974d8a889188c9b3d71,
+      type: 3}
+    racingCar: {fileID: 7498707538272047733, guid: 6e225307a218f344dabc9e5d0b82a157,
+      type: 3}
+    unlocked: 1
+    price: 25000
+  - vehicleName: New Player Vehicle 91
+    playerCar: {fileID: 5889998670708818054, guid: 0fac94a15accd4b458b0c6c294186ff5,
+      type: 3}
+    racingCar: {fileID: 7415905484065076853, guid: c136e1964fb82bd4f9e96408e020a3d2,
       type: 3}
     unlocked: 1
     price: 25000
@@ -187,13 +187,10 @@ MonoBehaviour:
       type: 3}
     unlocked: 1
     price: 25000
-  - vehicleName: New Player Vehicle 21
-    playerCar: {fileID: 3736164781392191307, guid: 17c6360202e77934cb8a2ef574c9e0dd,
+  - vehicleName: New Player Vehicle 40
+    playerCar: {fileID: 6893701288604583921, guid: 7ad6504b88be6e147b81056dca1b93c5,
       type: 3}
-    unlocked: 0
-    price: 25000
-  - vehicleName: New Player Vehicle 45
-    playerCar: {fileID: 1134076971106766739, guid: 074f41f0dff1c3442bd7ae5d0c097ec0,
+    racingCar: {fileID: 8970472222724924349, guid: d4fd450a983d1be4da01cd69967b679f,
       type: 3}
     unlocked: 1
     price: 25000
