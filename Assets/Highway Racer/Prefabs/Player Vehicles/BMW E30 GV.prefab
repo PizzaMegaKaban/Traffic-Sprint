@@ -201,8 +201,8 @@ Rigidbody:
   m_GameObject: {fileID: 1230920211726208416}
   serializedVersion: 4
   m_Mass: 1350
-  m_Drag: 0.01
-  m_AngularDrag: 0.5
+  m_Drag: 0
+  m_AngularDrag: 0.1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -649,7 +649,7 @@ Transform:
   m_GameObject: {fileID: 2851137512285730245}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.247, z: -0.078}
+  m_LocalPosition: {x: 0, y: 0.379, z: -0.148}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2450,12 +2450,11 @@ MonoBehaviour:
   checkedSetup: 0
   overrideGear: 0
   gearRatios:
-  - 4.35
-  - 2.5
+  - 4.23
+  - 2.52
   - 1.66
-  - 1.23
+  - 1.22
   - 1
-  - 0.85
   gearRPMs: []
   currentGear: 0
   gearInput: 0
@@ -2465,7 +2464,7 @@ MonoBehaviour:
     gearState: 3
   defaultGearState: 3
   targetSpeeds: []
-  shiftingTime: 0.2
+  shiftingTime: 0.25
   shiftingNow: 0
   dontShiftTimer: 1
   lastTimeShifted: 0
@@ -2473,8 +2472,8 @@ MonoBehaviour:
   transmissionType: 1
   automaticGearSelector: 0
   shiftThreshold: 0.8
-  shiftUpRPM: 5500
-  shiftDownRPM: 2750
+  shiftUpRPM: 6500
+  shiftDownRPM: 3000
   receivedTorqueAsNM: 0
   producedTorqueAsNM: 0
   outputEvent:
@@ -2735,13 +2734,13 @@ MonoBehaviour:
   engineRunning: 1
   engineStarting: 0
   engineRPM: 0
-  minEngineRPM: 750
-  maxEngineRPM: 7000
+  minEngineRPM: 800
+  maxEngineRPM: 6500
   NMCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 750
+      time: 800
       value: 0.8
       inSlope: 0
       outSlope: 0
@@ -2759,7 +2758,7 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 7000
+      time: 6500
       value: 0.85
       inSlope: 0
       outSlope: 0
@@ -2953,7 +2952,7 @@ MonoBehaviour:
   steerSpeed: 1
   isGrounded: 0
   maxBrakeTorque: 3500
-  maxSteerAngle: 40
+  maxSteerAngle: 35
   tractionHelpedSidewaysStiffness: 1
   producedMotorTorqueNM_Left: 0
   producedMotorTorqueNM_Right: 0

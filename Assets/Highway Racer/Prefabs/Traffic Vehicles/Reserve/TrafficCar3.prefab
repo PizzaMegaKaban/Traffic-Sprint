@@ -1080,11 +1080,7 @@ MonoBehaviour:
   triggerCollider: {fileID: 0}
   changingLines: 0
   maximumSpeed: 20
-  wheelModels:
-  - {fileID: 416632}
-  - {fileID: 474324}
-  - {fileID: 434634}
-  - {fileID: 456962}
+  wheelModels: []
   headLights:
   - {fileID: 10803144}
   - {fileID: 6299382713146868320}
