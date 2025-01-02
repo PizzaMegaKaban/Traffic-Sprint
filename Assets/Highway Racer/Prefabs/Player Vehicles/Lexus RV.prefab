@@ -172,6 +172,7 @@ Transform:
   - {fileID: 6479804475365345896}
   - {fileID: 1844496384725394554}
   - {fileID: 3214193565954245809}
+  - {fileID: 2567114487113078419}
   - {fileID: 4615318656719179375}
   - {fileID: 3930631447980683026}
   - {fileID: 3934289601099309596}
@@ -1823,6 +1824,97 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &4399624718746833858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2567114487113078419}
+  - component: {fileID: 1675315335850380173}
+  m_Layer: 15
+  m_Name: RCCP_Customizer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2567114487113078419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4399624718746833858}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 704427647873202608}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1675315335850380173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4399624718746833858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfe346e1402133448b98ff89336a4fa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  completeSetup: 0
+  checkedSetup: 0
+  saveFileName: Lexus RV
+  autoInitialize: 1
+  autoLoadLoadout: 1
+  autoSave: 1
+  initializeMethod: 2
+  loadout:
+    paint: {r: 1, g: 1, b: 1, a: 0}
+    spoiler: -1
+    siren: -1
+    wheel: -1
+    engineLevel: 0
+    handlingLevel: 0
+    brakeLevel: 0
+    speedLevel: 0
+    nosLevel: 0
+    decalIndexFront: -1
+    decalIndexBack: -1
+    decalIndexLeft: -1
+    decalIndexRight: -1
+    neonIndex: -1
+    customizationData:
+      initialized: 0
+      suspensionDistanceFront: 0.2
+      suspensionDistanceRear: 0.2
+      suspensionSpringForceFront: 55000
+      suspensionSpringForceRear: 55000
+      suspensionDamperFront: 3500
+      suspensionDamperRear: 3500
+      suspensionTargetFront: 0.5
+      suspensionTargetRear: 0.5
+      cambersFront: 0
+      cambersRear: 0
+      gearShiftingThreshold: 0.8
+      clutchThreshold: 0.1
+      counterSteering: 1
+      steeringLimiter: 1
+      ABS: 0
+      ESP: 0
+      TCS: 0
+      SH: 0
+      NOS: 0
+      revLimiter: 0
+      automaticTransmission: 0
+      headlightColor: {r: 1, g: 1, b: 1, a: 1}
+      wheelSmokeColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &5395295287595428036
 GameObject:
   m_ObjectHideFlags: 0

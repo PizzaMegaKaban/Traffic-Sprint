@@ -936,7 +936,7 @@ MonoBehaviour:
   checkComponents: 0
   canControl: 1
   externalControl: 0
-  ineffectiveBehavior: 0
+  ineffectiveBehavior: 1
   engineRPM: 0
   minEngineRPM: 800
   maxEngineRPM: 8000
@@ -1669,7 +1669,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5346177552808826782}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: COM
   m_TagString: Untagged
   m_Icon: {fileID: 0}

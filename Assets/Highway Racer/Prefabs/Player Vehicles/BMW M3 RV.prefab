@@ -933,6 +933,97 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &2183558824295735950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2397367290278820861}
+  - component: {fileID: 4031698628660394408}
+  m_Layer: 15
+  m_Name: RCCP_Customizer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2397367290278820861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2183558824295735950}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9078308679842699898}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4031698628660394408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2183558824295735950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfe346e1402133448b98ff89336a4fa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  completeSetup: 0
+  checkedSetup: 0
+  saveFileName: BMW M3 RV
+  autoInitialize: 1
+  autoLoadLoadout: 1
+  autoSave: 1
+  initializeMethod: 2
+  loadout:
+    paint: {r: 1, g: 1, b: 1, a: 0}
+    spoiler: -1
+    siren: -1
+    wheel: -1
+    engineLevel: 0
+    handlingLevel: 0
+    brakeLevel: 0
+    speedLevel: 0
+    nosLevel: 0
+    decalIndexFront: -1
+    decalIndexBack: -1
+    decalIndexLeft: -1
+    decalIndexRight: -1
+    neonIndex: -1
+    customizationData:
+      initialized: 0
+      suspensionDistanceFront: 0.2
+      suspensionDistanceRear: 0.2
+      suspensionSpringForceFront: 55000
+      suspensionSpringForceRear: 55000
+      suspensionDamperFront: 3500
+      suspensionDamperRear: 3500
+      suspensionTargetFront: 0.5
+      suspensionTargetRear: 0.5
+      cambersFront: 0
+      cambersRear: 0
+      gearShiftingThreshold: 0.8
+      clutchThreshold: 0.1
+      counterSteering: 1
+      steeringLimiter: 1
+      ABS: 0
+      ESP: 0
+      TCS: 0
+      SH: 0
+      NOS: 0
+      revLimiter: 0
+      automaticTransmission: 0
+      headlightColor: {r: 1, g: 1, b: 1, a: 1}
+      wheelSmokeColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2334726000854843633
 GameObject:
   m_ObjectHideFlags: 0
@@ -1972,6 +2063,7 @@ Transform:
   - {fileID: 7787167070134951871}
   - {fileID: 6338233640444367648}
   - {fileID: 2613936895337361568}
+  - {fileID: 2397367290278820861}
   - {fileID: 3122711521869431677}
   - {fileID: 2019181862042796695}
   - {fileID: 8447805324953328929}
