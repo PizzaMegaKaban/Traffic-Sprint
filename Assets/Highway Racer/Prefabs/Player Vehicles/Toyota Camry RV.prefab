@@ -401,7 +401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4555656107300350759}
   - component: {fileID: 3458876550562510774}
-  m_Layer: 8
+  m_Layer: 15
   m_Name: Upgrade_Speed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -532,7 +532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5326111024965332029}
   - component: {fileID: 7905857278959998827}
-  m_Layer: 8
+  m_Layer: 15
   m_Name: Upgrade_Engine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -580,7 +580,7 @@ GameObject:
   m_Component:
   - component: {fileID: 899628796586075736}
   - component: {fileID: 8779951100062902542}
-  m_Layer: 8
+  m_Layer: 15
   m_Name: Upgrade_Brake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1824,7 +1824,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7959155374948842965}
   - component: {fileID: 6695576706295642127}
-  m_Layer: 8
+  m_Layer: 15
   m_Name: Customization
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2320,6 +2320,7 @@ Transform:
   - {fileID: 9204000238774185033}
   - {fileID: 8854421164408205945}
   - {fileID: 2186639810586866076}
+  - {fileID: 7444517383940885149}
   - {fileID: 7730444041120954853}
   - {fileID: 874222217753569956}
   - {fileID: 4855739516161436435}
@@ -2465,7 +2466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2217213648770627586}
   - component: {fileID: 2805722674211217205}
-  m_Layer: 8
+  m_Layer: 15
   m_Name: Upgrades
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2670,6 +2671,53 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7576202867635369043
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7444517383940885149}
+  - component: {fileID: 8884245711879146609}
+  m_Layer: 15
+  m_Name: RCCP_OtherAddons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7444517383940885149
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7576202867635369043}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1438693727946335268}
+  m_Father: {fileID: 7457891295769135002}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8884245711879146609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7576202867635369043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fce272c41b4470c46866e370c7a146a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  completeSetup: 0
+  checkedSetup: 0
 --- !u!1 &7582566157741120347
 GameObject:
   m_ObjectHideFlags: 0
@@ -2753,6 +2801,59 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7705637743586640712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1438693727946335268}
+  - component: {fileID: 2831933732163031643}
+  m_Layer: 0
+  m_Name: RCCP_NOS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1438693727946335268
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7705637743586640712}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7444517383940885149}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2831933732163031643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7705637743586640712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f5289e952b73f54fb3e58d355c1a9c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  completeSetup: 0
+  checkedSetup: 0
+  nosInUse: 0
+  torqueMultiplier: 1.5
+  amount: 1
+  durationTime: 3
+  timer: 3
+  regenerateTime: 2
+  regenerateRate: 1
 --- !u!1 &7779933108666904639
 GameObject:
   m_ObjectHideFlags: 0
@@ -2879,7 +2980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2933395698605709375}
   - component: {fileID: 1665973817605082080}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Upgrade_NOS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3191,7 +3292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4237317283648886954}
   - component: {fileID: 7198606460774267774}
-  m_Layer: 8
+  m_Layer: 15
   m_Name: Paints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3242,7 +3343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3765643261511470757}
   - component: {fileID: 4686853873784356987}
-  m_Layer: 8
+  m_Layer: 15
   m_Name: Paint_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3373,7 +3474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8788033957824638344}
   - component: {fileID: 485370041996471163}
-  m_Layer: 8
+  m_Layer: 15
   m_Name: Upgrade_Handling
   m_TagString: Untagged
   m_Icon: {fileID: 0}

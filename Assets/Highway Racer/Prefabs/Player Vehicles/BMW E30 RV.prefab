@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4270247804758760950}
   - component: {fileID: 1101565276491832025}
-  m_Layer: 8
+  m_Layer: 15
   m_Name: Customization
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -510,7 +510,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6510786776208880012}
   - component: {fileID: 2843059668125821202}
-  m_Layer: 8
+  m_Layer: 15
   m_Name: Upgrade_Brake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1037,7 +1037,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4196372334921508161}
   - component: {fileID: 6757306920414672516}
-  m_Layer: 8
+  m_Layer: 15
   m_Name: Paints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1088,7 +1088,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8319276982807011153}
   - component: {fileID: 4728263182967829865}
-  m_Layer: 8
+  m_Layer: 15
   m_Name: Upgrade_Handling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1159,6 +1159,53 @@ Transform:
   - {fileID: 3932978147661000242}
   m_Father: {fileID: 9134135294297296939}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3281892731487281296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2184540074772635141}
+  - component: {fileID: 4798246260305693615}
+  m_Layer: 15
+  m_Name: RCCP_OtherAddons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2184540074772635141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3281892731487281296}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7117963045932319502}
+  m_Father: {fileID: 9134135294297296939}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4798246260305693615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3281892731487281296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fce272c41b4470c46866e370c7a146a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  completeSetup: 0
+  checkedSetup: 0
 --- !u!1 &3435564676453151350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1408,7 +1455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6783230697352819989}
   - component: {fileID: 1633369208716690468}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Upgrade_NOS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2768,7 +2815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7216587025929945948}
   - component: {fileID: 8483682413714930562}
-  m_Layer: 8
+  m_Layer: 15
   m_Name: Upgrade_Engine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2816,7 +2863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1254225881054014842}
   - component: {fileID: 3945315835130810012}
-  m_Layer: 8
+  m_Layer: 15
   m_Name: Upgrades
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3463,6 +3510,7 @@ Transform:
   - {fileID: 1031351812103265386}
   - {fileID: 2452264027090209800}
   - {fileID: 6457856365033850956}
+  - {fileID: 2184540074772635141}
   - {fileID: 3404037228441558041}
   - {fileID: 9031016823262371585}
   - {fileID: 8143947903183572115}
@@ -3608,7 +3656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6267916373664798415}
   - component: {fileID: 7453646920286830142}
-  m_Layer: 8
+  m_Layer: 15
   m_Name: Upgrade_Speed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3646,6 +3694,59 @@ MonoBehaviour:
   checkedSetup: 0
   defRatio: -1
   efficiency: 1.2
+--- !u!1 &8812735855852908427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7117963045932319502}
+  - component: {fileID: 7997739364093267568}
+  m_Layer: 0
+  m_Name: RCCP_NOS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7117963045932319502
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8812735855852908427}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2184540074772635141}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7997739364093267568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8812735855852908427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f5289e952b73f54fb3e58d355c1a9c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  completeSetup: 0
+  checkedSetup: 0
+  nosInUse: 0
+  torqueMultiplier: 1.5
+  amount: 1
+  durationTime: 3
+  timer: 3
+  regenerateTime: 2
+  regenerateRate: 1
 --- !u!1 &8893333738577721899
 GameObject:
   m_ObjectHideFlags: 0
@@ -3656,7 +3757,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9218980720786837939}
   - component: {fileID: 3267471257056706281}
-  m_Layer: 8
+  m_Layer: 15
   m_Name: Paint_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -40,7 +40,7 @@ public class HR_UIOptionsManager : MonoBehaviour {
     [Space()]
     //public Slider drawDistance;
     public Slider masterVolume;
-    public Slider musicVolume;
+    //public Slider musicVolume;
 
     public delegate void OptionsChanged();
     public static event OptionsChanged OnOptionsChanged;
@@ -105,7 +105,7 @@ public class HR_UIOptionsManager : MonoBehaviour {
 
         //drawDistance.value = PlayerPrefs.GetFloat("DrawDistance", 300);
         masterVolume.value = PlayerPrefs.GetFloat("MasterVolume", 1f);
-        musicVolume.value = PlayerPrefs.GetFloat("MusicVolume", .35f);
+        // musicVolume.value = PlayerPrefs.GetFloat("MusicVolume", .35f);
 
     }
 
