@@ -1802,9 +1802,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _poweredAxles: []
-  _brakedAxles: []
-  _steeredAxles: []
-  _handbrakedAxles: []
+  _brakedAxles:
+  - {fileID: 1746138580703931171}
+  - {fileID: 5940360217052696921}
+  _steeredAxles:
+  - {fileID: 1746138580703931171}
+  _handbrakedAxles:
+  - {fileID: 5940360217052696921}
   checkComponents: 0
   canControl: 1
   externalControl: 0

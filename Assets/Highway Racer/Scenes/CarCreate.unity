@@ -24238,14 +24238,11 @@ PrefabInstance:
       value: Porshe 911 GV
       objectReference: {fileID: 0}
     - target: {fileID: 3736164781392191307, guid: 17c6360202e77934cb8a2ef574c9e0dd,
-<<<<<<< Updated upstream
-=======
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9073347874261615810, guid: 17c6360202e77934cb8a2ef574c9e0dd,
->>>>>>> Stashed changes
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -26378,9 +26375,6 @@ SceneRoots:
   - {fileID: 222133412}
   - {fileID: 1078429032}
   - {fileID: 2098669424}
-<<<<<<< Updated upstream
-=======
   - {fileID: 6741658306998672418}
   - {fileID: 8843159629604861566}
   - {fileID: 1598007503526892215}
->>>>>>> Stashed changes

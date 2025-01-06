@@ -30333,7 +30333,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 564579169231279973}
         m_TargetAssemblyTypeName: HR_UIOptionsManager, Assembly-CSharp
         m_MethodName: SetMasterVolume
         m_Mode: 2
@@ -43725,7 +43725,6 @@ MonoBehaviour:
   med: {fileID: 0}
   high: {fileID: 0}
   masterVolume: {fileID: 1551288296}
-  musicVolume: {fileID: 0}
 --- !u!114 &571945754455286649
 MonoBehaviour:
   m_ObjectHideFlags: 0
