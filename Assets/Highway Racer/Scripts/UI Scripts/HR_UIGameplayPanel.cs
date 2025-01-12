@@ -213,10 +213,16 @@ public class HR_UIGameplayPanel : MonoBehaviour {
             score.text = player.score.ToString("F0");
 
         if (speed)
-            speed.text = player.speed.ToString("F0");
+        {
+            string speedMeasure = PlayerPrefs.GetInt("SpeedMeasure", 0) == 0 ? " km/h" : " m/h";
+            speed.text = player.speed.ToString("F0") + speedMeasure;
+        }
 
         if (distance)
-            distance.text = (player.distance).ToString("F2");
+        {
+            string distanceMeasure = PlayerPrefs.GetInt("SpeedMeasure", 0) == 0 ? " KM" : " M";
+            distance.text = (player.distance).ToString("F2") + distanceMeasure;
+        }
 
         if (highSpeed)
             highSpeed.text = player.highSpeedCurrent.ToString("F1");

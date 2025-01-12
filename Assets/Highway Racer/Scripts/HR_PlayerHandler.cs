@@ -10,6 +10,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using TMPro;
+using System;
 #if PHOTON_UNITY_NETWORKING
 using Photon;
 using Photon.Pun;
@@ -52,6 +53,7 @@ public class HR_PlayerHandler : MonoBehaviour {
     }
 
     public bool canCrash = true;
+    public bool isDistanceMeasuringInMeters = true; // Is distanse in game measuring in meters?
 
     public float damage = 0f;       //  Current damage.
     private bool crashed = false;      //	Game is over now?
@@ -140,6 +142,10 @@ public class HR_PlayerHandler : MonoBehaviour {
         foreach (WheelCollider item in wheelColliders)
             item.forceAppPointDistance = .15f;
 
+        isDistanceMeasuringInMeters = PlayerPrefs.GetInt("SpeedMeasure", 0) == 0;
+
+        //  Listening an event when options are changed.
+        HR_UIOptionsManager.OnOptionsChanged += OnPlayerOptionsChanged;
     }
 
     private void Update() {
@@ -163,7 +169,8 @@ public class HR_PlayerHandler : MonoBehaviour {
         speed = CarController.speed;
 
         // Total distance traveled.
-        distance += Vector3.Distance(previousPosition, transform.position) / 1000f;
+        float distanceInMeters = Vector3.Distance(previousPosition, transform.position) / 1000f;
+        distance += isDistanceMeasuringInMeters ? distanceInMeters : distanceInMeters / 1.6f;
         previousPosition = transform.position;
 
         //	Is speed is high enough, gain score.
@@ -272,6 +279,16 @@ public class HR_PlayerHandler : MonoBehaviour {
         if (!crashed && HR_GamePlayHandler.Instance.gameStarted)
             CheckNearMiss();
 
+    }
+
+    public void OnPlayerOptionsChanged()
+    {
+        // if new measuring was applied to player car
+        if (Convert.ToBoolean(PlayerPrefs.GetInt("SpeedMeasure", 0)) == isDistanceMeasuringInMeters)
+        {
+            isDistanceMeasuringInMeters = PlayerPrefs.GetInt("SpeedMeasure", 0) == 0;
+            distance = isDistanceMeasuringInMeters ? distance * 1.6f : distance / 1.6f;
+        }
     }
 
     /// <summary>
@@ -470,7 +487,8 @@ public class HR_PlayerHandler : MonoBehaviour {
         Rigid.drag = 1f;
 
         int[] scores = new int[4];
-        scores[0] = Mathf.FloorToInt(distance * TotalDistanceMoneyMP);
+        float distanceCoef = PlayerPrefs.GetInt("SpeedMeasure", 0) == 0 ? 1f : 1.6f;
+        scores[0] = Mathf.FloorToInt(distance * TotalDistanceMoneyMP * distanceCoef);
         scores[1] = Mathf.FloorToInt(nearMisses * TotalNearMissMoneyMP);
         scores[2] = Mathf.FloorToInt(highSpeedTotal * TotalOverspeedMoneyMP);
         scores[3] = Mathf.FloorToInt(opposideDirectionTotal * TotalOppositeDirectionMP);

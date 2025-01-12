@@ -412,7 +412,9 @@ public class RCCP_CarController : RCCP_MainComponent {
         }
 
         //  Calculating speed as km/h unit.
-        speed = transform.InverseTransformDirection(Rigid.velocity).z * 3.6f;
+        speed = PlayerPrefs.GetInt("SpeedMeasure", 0) == 0
+            ? transform.InverseTransformDirection(Rigid.velocity).z * 3.6f
+            : transform.InverseTransformDirection(Rigid.velocity).z * 2.25f;
 
         //  Converting traction wheel rpm to engine rpm.
         tractionWheelRPM2EngineRPM = (averagePowerWheelRPM * differentialRatio * currentGearRatio) * (1f - clutchInput_V) * gearInput_V;
