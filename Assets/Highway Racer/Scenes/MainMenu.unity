@@ -3969,9 +3969,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: HR_OptionsManager, Assembly-CSharp
-          m_MethodName: SetQuality
+        - m_Target: {fileID: 564579169231279973}
+          m_TargetAssemblyTypeName: HR_UIOptionsManager, Assembly-CSharp
+          m_MethodName: SetSpeedMeasure
           m_Mode: 2
           m_Arguments:
             m_ObjectArgument: {fileID: 247941131}
@@ -20243,8 +20243,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: HR_OptionsManager, Assembly-CSharp
+        - m_Target: {fileID: 564579169231279973}
+          m_TargetAssemblyTypeName: HR_UIOptionsManager, Assembly-CSharp
           m_MethodName: SetQuality
           m_Mode: 2
           m_Arguments:
@@ -22691,8 +22691,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: HR_OptionsManager, Assembly-CSharp
+        - m_Target: {fileID: 564579169231279973}
+          m_TargetAssemblyTypeName: HR_UIOptionsManager, Assembly-CSharp
           m_MethodName: SetQuality
           m_Mode: 2
           m_Arguments:
@@ -36781,9 +36781,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: HR_OptionsManager, Assembly-CSharp
-          m_MethodName: SetQuality
+        - m_Target: {fileID: 564579169231279973}
+          m_TargetAssemblyTypeName: HR_UIOptionsManager, Assembly-CSharp
+          m_MethodName: SetSpeedMeasure
           m_Mode: 2
           m_Arguments:
             m_ObjectArgument: {fileID: 1836727066}
@@ -38761,8 +38761,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: HR_OptionsManager, Assembly-CSharp
+        - m_Target: {fileID: 564579169231279973}
+          m_TargetAssemblyTypeName: HR_UIOptionsManager, Assembly-CSharp
           m_MethodName: SetQuality
           m_Mode: 2
           m_Arguments:
@@ -43721,10 +43721,12 @@ MonoBehaviour:
   touch: {fileID: 0}
   tilt: {fileID: 0}
   joystick: {fileID: 0}
-  low: {fileID: 0}
-  med: {fileID: 0}
-  high: {fileID: 0}
+  low: {fileID: 1979167415}
+  med: {fileID: 1043839612}
+  high: {fileID: 1152178114}
   masterVolume: {fileID: 1551288296}
+  kmh: {fileID: 1836727066}
+  mh: {fileID: 247941131}
 --- !u!114 &571945754455286649
 MonoBehaviour:
   m_ObjectHideFlags: 0

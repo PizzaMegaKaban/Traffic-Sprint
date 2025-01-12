@@ -2202,8 +2202,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1530063225}
-          m_TargetAssemblyTypeName: HR_OptionsManager, Assembly-CSharp
-          m_MethodName: SetQuality
+          m_TargetAssemblyTypeName: HR_UIOptionsManager, Assembly-CSharp
+          m_MethodName: SetSpeedMeasure
           m_Mode: 2
           m_Arguments:
             m_ObjectArgument: {fileID: 111887628}
@@ -6711,8 +6711,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1530063225}
-          m_TargetAssemblyTypeName: HR_OptionsManager, Assembly-CSharp
-          m_MethodName: SetQuality
+          m_TargetAssemblyTypeName: HR_UIOptionsManager, Assembly-CSharp
+          m_MethodName: SetSpeedMeasure
           m_Mode: 2
           m_Arguments:
             m_ObjectArgument: {fileID: 395372635}
@@ -19554,6 +19554,8 @@ MonoBehaviour:
   med: {fileID: 736043405}
   high: {fileID: 1288650031}
   masterVolume: {fileID: 1974783218}
+  kmh: {fileID: 395372635}
+  mh: {fileID: 111887628}
 --- !u!222 &1530063226
 CanvasRenderer:
   m_ObjectHideFlags: 0

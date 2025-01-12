@@ -41,6 +41,9 @@ public class HR_UIOptionsManager : MonoBehaviour {
     //public Slider drawDistance;
     public Slider masterVolume;
     //public Slider musicVolume;
+    [Space()]
+    public Toggle kmh;
+    public Toggle mh;
 
     public delegate void OptionsChanged();
     public static event OptionsChanged OnOptionsChanged;
@@ -106,6 +109,23 @@ public class HR_UIOptionsManager : MonoBehaviour {
         //drawDistance.value = PlayerPrefs.GetFloat("DrawDistance", 300);
         masterVolume.value = PlayerPrefs.GetFloat("MasterVolume", 1f);
         // musicVolume.value = PlayerPrefs.GetFloat("MusicVolume", .35f);
+
+        if (kmh && mh)
+        {
+            // скорость считается в км/ч
+            if (PlayerPrefs.GetInt("SpeedMeasure") == 0)
+            {
+                kmh.isOn = true;
+                mh.isOn = false;
+            }
+
+            // скорость считается в м/ч
+            if (PlayerPrefs.GetInt("SpeedMeasure") == 1)
+            {
+                kmh.isOn = false;
+                mh.isOn = true;
+            }
+        }
 
     }
 
@@ -210,6 +230,34 @@ public class HR_UIOptionsManager : MonoBehaviour {
         if (OnOptionsChanged != null)
             OnOptionsChanged();
 
+    }
+
+    public void SetSpeedMeasure(Toggle toggle, bool isRacing = true)
+    {
+        if (toggle.isOn)
+        {
+            toggle.isOn = false;
+            return;
+        }
+
+        switch (toggle.name)
+        {
+            case "KMH":
+                PlayerPrefs.SetInt("SpeedMeasure", 0);
+                if (isRacing && mh.isOn)
+                    break;
+                mh.isOn = false;
+                break;
+            case "MPH":
+                PlayerPrefs.SetInt("SpeedMeasure", 1);
+                if (isRacing && kmh.isOn)
+                    break;
+                kmh.isOn = false;
+                break;
+        }
+
+        if (OnOptionsChanged != null)
+            OnOptionsChanged();
     }
 
     public void SetDrawDistance(Slider slider) {
